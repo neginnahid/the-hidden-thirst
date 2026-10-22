@@ -32,7 +32,7 @@ body {
   background-color: var(--paper);
   color: var(--ink);
   font-family: "Inter", Helvetica, Arial, sans-serif;
-  line-height: 1.65;
+  line-height: 1.66;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -44,8 +44,8 @@ body {
 
 .kicker {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 0.72rem;
-  font-weight: 500;
+  font-size: 0.73rem;
+  font-weight: 501;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--clay);
@@ -58,7 +58,7 @@ body {
   left: -9999px;
   background-color: var(--ink);
   color: var(--paper);
-  padding: 0.7rem 1rem;
+  padding: 0.8rem 1rem;
   z-index: 100;
 }
 
