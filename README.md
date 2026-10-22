@@ -1,6 +1,6 @@
 # The Hidden Thirst
 
-A one page website about the effect of data centers and AI on clean water.
+A one page website about the effect of data centers and AI on clean water. Our research explores the impact of both AI and data centers on clean water.
 CSC 317 Group Project 1, San Francisco State University.
 
 Live site: (Netlify URL)
