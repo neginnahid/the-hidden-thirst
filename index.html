@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Hidden Thirst</title>
+  <meta name="description" content="Data centers and AI run on water. A short reader on how much, and where it goes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <a class="wordmark" href="#top">The Hidden Thirst</a>
+    <nav aria-label="Sections">
+      <ul class="menu">
+        <li><a href="#facts">Facts</a></li>
+        <li><a href="#scale">Scale</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#sources">Sources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="opening" id="top">
+      <div class="opening-text">
+        <p class="kicker">Water &middot; Data centers &middot; AI</p>
+        <h1>The hidden <em>thirst</em></h1>
+        <p class="standfirst">
+          A data center does one physical thing: it turns electricity into heat.
+          Getting rid of that heat takes water, and it is usually the same water
+          a town drinks.
+        </p>
+        <a class="enter" href="#facts">Read the facts</a>
+      </div>
+
+      <figure class="headline-stat">
+        <p class="stat-number">66<span class="stat-unit">bn L</span></p>
+        <figcaption>
+          Water evaporated by US data centers for cooling in 2023. In 2014 it was
+          21.2 billion liters.<a class="ref" href="#s1">1</a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="facts" id="facts">
+      <div class="section-head">
+        <p class="kicker">Six facts</p>
+        <h2>What the water is doing</h2>
+      </div>
+
+      <ol class="facts-list">
+        <li>
+          <h3>Heat is the only product</h3>
+          <p>
+            Almost every watt a server draws leaves the building as heat. Large
+            sites shed it by evaporating water into the air, so that water does
+            not return to the system it came from. US data centers evaporated
+            66 billion liters this way in 2023, roughly three times the 2014
+            figure.<a class="ref" href="#s1">1</a>
+          </p>
+        </li>
+
+        <li>
+          <h3>It is drinking water</h3>
+          <p>
+            Cooling towers run on treated potable supply, because untreated water
+            scales the pipes and breeds bacteria. In one review, 57% of
+            the water data centers drew directly came from potable
+            sources.<a class="ref" href="#s2">2</a>
+          </p>
+        </li>
+
+        <li>
+          <h3>Withdrawn is not consumed</h3>
+          <p>
+            Withdrawal is water borrowed and returned. Consumption is water gone
+            from the watershed. Evaporative cooling is consumption, which is why
+            a tidy-looking figure can still drain a reservoir.<a class="ref" href="#s2">2</a>
+          </p>
+        </li>
+
+        <li>
+          <h3>Built where it is driest</h3>
+          <p>
+            Siting follows cheap land and cheap power, and that tends to mean arid
+            country. About a fifth of the direct water footprint of US servers
+            falls in moderately to highly stressed watersheds, and nearly half
+            draw their power from plants in stressed
+            regions.<a class="ref" href="#s3">3</a>
+          </p>
+        </li>
+
+        <li>
+          <h3>There is a second bill</h3>
+          <p>
+            Air cooling still spends water, just somewhere else: thermal power
+            stations evaporate it to generate the electricity. Every kilowatt-hour
+            a US data center uses carries 4.52 liters of water at the power
+            plant.<a class="ref" href="#s1">1</a>
+          </p>
+        </li>
+
+        <li>
+          <h3>Nobody has to tell you</h3>
+          <p>
+            Consumption figures are routinely withheld as commercially sensitive.
+            Fewer than a third of operators measure their water use at
+            all.<a class="ref" href="#s2">2</a>
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="scale" id="scale">
+      <div class="section-head">
+        <p class="kicker">United States, 2023</p>
+        <h2>The bill you see, and the one you don&rsquo;t</h2>
+      </div>
+
+      <ul class="gauges">
+        <li>
+          <p class="gauge-label">
+            Indirect, at the power stations
+            <span class="figure">~800 bn L</span>
+          </p>
+          <span class="gauge" style="--fill: 100%"></span>
+        </li>
+        <li>
+          <p class="gauge-label">
+            Direct, on-site cooling, 2023
+            <span class="figure">66 bn L</span>
+          </p>
+          <span class="gauge" style="--fill: 8%"></span>
+        </li>
+        <li>
+          <p class="gauge-label">
+            Direct, on-site cooling, 2014
+            <span class="figure">21.2 bn L</span>
+          </p>
+          <span class="gauge" style="--fill: 3%"></span>
+        </li>
+      </ul>
+
+      <p class="gauge-note">
+        On-site use tripled in nine years and it is still the small bar. Most of
+        the water a data center spends is evaporated somewhere else, by the plant
+        making its electricity. By 2028 the direct figure alone is projected to
+        land between 60 and 124 billion liters.<a class="ref" href="#s1">1</a>
+      </p>
+    </section>
+
+    <section class="ai" id="ai">
+      <div class="section-head">
+        <p class="kicker">The newer pressure</p>
+        <h2>What AI adds</h2>
+      </div>
+
+      <div class="ai-grid">
+        <article class="ai-card">
+          <p class="card-number">700,000 L</p>
+          <p>
+            Freshwater estimated to have evaporated training GPT-3 in Microsoft&rsquo;s
+            US data centers. Training the same model in the company&rsquo;s Asian
+            data centers would have tripled it.<a class="ref" href="#s4">4</a>
+          </p>
+        </article>
+
+        <article class="ai-card">
+          <p class="card-number">4.2&ndash;6.6 bn m&sup3;</p>
+          <p>
+            Global water withdrawal the same researchers project AI demand could
+            account for by 2027, more than the total annual withdrawal of several
+            mid-sized countries.<a class="ref" href="#s4">4</a>
+          </p>
+        </article>
+
+        <article class="ai-card">
+          <p class="card-number">0.48 L</p>
+          <p>
+            Water per kilowatt-hour that US data centers are expected to use
+            on site by 2028, rising partly because liquid-cooled AI hardware
+            drinks more than the racks it replaces.<a class="ref" href="#s1">1</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="sources" id="sources">
+      <div class="section-head">
+        <p class="kicker">References</p>
+        <h2>Sources</h2>
+      </div>
+
+      <ol class="refs">
+        <li id="s1">
+          Shehabi, A., Smith, S. J., Hubbard, A., Newkirk, A., Lei, N., Siddik,
+          M. A. B., Holecek, B., Koomey, J., Masanet, E., &amp; Sartor, D. (2024).
+          <em>2024 United States Data Center Energy Usage Report</em>.
+          Lawrence Berkeley National Laboratory, LBNL-2001637.
+          <a href="https://doi.org/10.71468/P1WC7Q">doi.org/10.71468/P1WC7Q</a>
+        </li>
+        <li id="s2">
+          Mytton, D. (2021). Data centre water consumption.
+          <em>npj Clean Water</em>, 4, 11.
+          <a href="https://doi.org/10.1038/s41545-021-00101-w">doi.org/10.1038/s41545-021-00101-w</a>
+        </li>
+        <li id="s3">
+          Siddik, M. A. B., Shehabi, A., &amp; Marston, L. (2021). The
+          environmental footprint of data centers in the United States.
+          <em>Environmental Research Letters</em>, 16(6), 064017.
+          <a href="https://doi.org/10.1088/1748-9326/abfba1">doi.org/10.1088/1748-9326/abfba1</a>
+        </li>
+        <li id="s4">
+          Li, P., Yang, J., Islam, M. A., &amp; Ren, S. (2023).
+          <em>Making AI Less &ldquo;Thirsty&rdquo;: Uncovering and Addressing the
+          Secret Water Footprint of AI Models</em>. arXiv:2304.03271.
+          <a href="https://arxiv.org/abs/2304.03271">arxiv.org/abs/2304.03271</a>
+        </li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer class="colophon">
+    <p class="colophon-mark">The Hidden Thirst</p>
+    <p>CSC 317 &middot; Group Project 1 &middot; San Francisco State University</p>
+    <p class="colophon-note">Negin Nahid and Avia Levitt &middot; Built with HTML and CSS only</p>
+  </footer>
+</body>
+
+</html>
