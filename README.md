@@ -10,6 +10,7 @@ Live site: (Netlify URL)
 Six facts about how data center cooling consumes fresh water, a visual comparison
 of direct against indirect water use, and a short section on what AI adds. Every
 figure on the page is cited to one of four sources listed at the bottom of the site.
+We have included our sources at the bottom of the page.
 
 ## Built with
 
